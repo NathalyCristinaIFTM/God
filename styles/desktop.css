@@ -1,0 +1,321 @@
+@media screen and (min-width: 1024px) {
+  .navbar {
+    width: 70%;
+    height: 10vh;
+    background-color: #000000e1;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  .container-banner {
+    width: 1200px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e0e0ecd;
+  }
+  .content-banner {
+    height: 100%;
+    width: 35%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar ul {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar ul a {
+    text-decoration: none;
+  }
+  .navbar ul li {
+    list-style: none;
+    color: #6e07cf;
+    font-size: 1.4rem;
+  }
+  .banner {
+    width: 65%;
+    height: 100%;
+    background: url("https://d24x9can9aadud.cloudfront.net/wp-content/uploads/sites/3/2014/03/gods-not-dead2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .cards {
+    width: 1200px;
+    height: 30vh;
+    background: #c9c9c9;
+    background-position: top/center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .card {
+    width: 25vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    transition: transform 2s;
+    gap: 0.5rem;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    color: black;
+  }
+  .card img {
+    width: 30%;
+    transition: transform 0.4s;
+  }
+  .card p {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .card img:hover {
+    transform: scale(0.7);
+  }
+  .cta {
+    width: 1200px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cta h2 {
+    padding: 2rem;
+    text-transform: uppercase;
+  }
+  .cta p {
+    width: 90%;
+    text-align: justify;
+  }
+  .cta span {
+    color: red;
+  }
+
+  .movies {
+    width: 1200px;
+    height: 60vh;
+    background-color: #0e0e0ecd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .movies h2 {
+    padding: 2rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  .movies_list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .movies_item {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .movies_item img {
+    transition: transform 0.4s;
+    width: 50%;
+    height: auto;
+  }
+  .movies_item img:hover {
+    transform: scale(0.9);
+  }
+  .button {
+    width: 8vw;
+    height: 5vh;
+    text-transform: uppercase;
+    border: 1px solid #6e07cf;
+    background-color: transparent;
+    color: white;
+    border-radius: 0.2rem;
+  }
+  .contato {
+    width: 1200px;
+    height: 70vh;
+    background-color: #9b9b9bba;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .contato h2 {
+    padding-top: 2rem;
+    text-transform: uppercase;
+  }
+  .button-secondary {
+    margin-top: 3rem;
+    width: 15vw;
+    height: 5vh;
+    text-transform: uppercase;
+    border: 1px solid #6e07cf;
+    background-color: transparent;
+    font-size: 1.15rem;
+    color: black;
+    border-radius: 0.2rem;
+    transition: transform 0.8s;
+  }
+  .button-secondary:hover {
+    transform: scale(1.1);
+    background-color: #6e07cf;
+    border: none;
+    color: white;
+  }
+  .rodape {
+    width: 1200px;
+    height: 10vh;
+    background-color: #6e07cfa7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.8rem;
+  }
+  .rodape span {
+    font-family: "Wavefont", cursive;
+    color: red;
+    font-weight: 200;
+    font-size: 1.4rem;
+  }
+  .text_cta {
+    width: 1200px;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9b9b9b;
+  }
+  .img_cta {
+    transform: scaleX(-1);
+    padding: 1rem;
+  }
+  .button-tertiary {
+    width: 10vw;
+    height: 5vh;
+    margin: 0.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: #6e07cfd5;
+    border: none;
+    border-radius: 0.5rem;
+    transition: transform 0.5s;
+  }
+  .button-tertiary:hover {
+    transform: scale(1.1);
+  }
+  .images {
+    width: 1200px;
+    height: 160vh;
+    background-color: #fdfdfdcc;
+  }
+  .images_videos {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    align-items: center;
+    justify-items: center;
+  }
+  .card-video {
+    width: 85%;
+    height: 60%;
+    background-color: #0e0e0ecd;
+  }
+  iframe {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .form input {
+    width: 25vw;
+    height: 5vh;
+    border: none;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    box-shadow: 26px 10px 47px -6px rgba(110, 7, 207, 1);
+  }
+  .form textarea {
+    width: 25vw;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    border: none;
+    box-shadow: 26px 10px 47px -6px rgba(110, 7, 207, 1);
+  }
+  .form .btn-form{
+    width: 15vw;
+    color: white;
+    font-weight: bold;
+    background-color: #6e07cfd5;
+  }
+  .info{
+    width: 1200px;
+    height: 100%;
+    background-color: #9b9b9bba;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .info .logo{
+    width: 25%;
+    padding: 3rem;
+  }
+  .info .logo img{
+    width: 85%;
+  }
+  .info .menu{
+    width: 35%;
+  }
+  .info .menu ul li{
+    list-style: none;
+  }
+  .info .social{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .info .social .icons{
+    display: flex;
+    width: 80%;
+    gap: 0.5rem;
+  }
+  .info .social .icons img{
+    width: 20%;
+    border-radius: 50%;
+  }
+}

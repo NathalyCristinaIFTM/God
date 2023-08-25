@@ -1,0 +1,61 @@
+/* Imports */
+
+@import url("./desktop.css");
+@import url("./mobile.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Orbitron&family=Ubuntu&family=Wavefont:wght@200&display=swap");
+
+/* 
+legenda de como selecionar a fonte
+
+    font-family: 'Great Vibes', cursive;
+
+    font-family: 'Orbitron', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'Wavefont', cursive;
+*/
+
+/* !Imports */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Orbitron', sans-serif;
+  background: url('https://images.hdqwalls.com/wallpapers/abstract-sharp-objects-4k-wb.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
